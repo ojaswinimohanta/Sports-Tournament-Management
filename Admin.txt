@@ -1,0 +1,55 @@
+Admin:=>
+
+
+   Begin   
+
+    define SUCCESS 1
+
+    declare choice : int
+
+    declare username : string
+    declare password : string
+
+    while (1)
+    do
+
+        print "1. Registered"
+        print "2. login"
+        print "0. Quit"
+	   
+	  print "Enter your choice"
+        read  choice
+        
+
+        switch(choice)
+   {     
+      case 0:
+			manage_categories()
+			break
+        
+            
+      case 1:
+               
+                        manage_Players()
+                        break
+
+      case 2:
+                        manage_teams()
+                        break
+       
+      case 3:
+                        manage_tournaments()
+                        break
+    
+       case 4:
+                        manage_matches()
+                        break
+
+       case 5:			
+                        report()
+                        break
+       default:
+                        quit            
+                
+  }
+    return SUCCESS
