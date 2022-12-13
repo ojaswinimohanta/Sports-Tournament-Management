@@ -7,15 +7,11 @@ Admin:=>
 
     declare choice : int
 
-    declare username : string
-    declare password : string
 
     while (1)
     do
 
-        print "1. Registered"
-        print "2. login"
-        print "0. Quit"
+     
 	   
 	  print "Enter your choice"
         read  choice
