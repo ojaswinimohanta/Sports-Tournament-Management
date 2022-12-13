@@ -12,10 +12,11 @@ int main()
       if(val==0)
        {
     printf("Login SucessFully");
+    */
        
      
 	    readcategories();
-	    readplayerFile(); */
+	    readplayerFile(); 
    
 	do 
 	{ 
